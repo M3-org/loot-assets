@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@shopify/screenshot-glb": "^1.9.1"
+  }
+}
