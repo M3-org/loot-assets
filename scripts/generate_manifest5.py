@@ -20,18 +20,18 @@ culling_layer_mapping = {
     "Waist": -1
 }
 
-def read_csv_mapping(csv_file_path):
-    id_mapping = {}
-
-    with open(csv_file_path, 'r') as csvfile:
-        csv_reader = csv.DictReader(csvfile)
-        for row in csv_reader:
-            original_name = row['Original']
-            renamed_name = row['Rename']
-
-            id_mapping[original_name] = renamed_name
-
-    return id_mapping
+#def read_csv_mapping(csv_file_path):
+#    id_mapping = {}
+#
+#    with open(csv_file_path, 'r') as csvfile:
+#        csv_reader = csv.DictReader(csvfile)
+#        for row in csv_reader:
+#            original_name = row['Original']
+#            renamed_name = row['Rename']
+#
+#            id_mapping[original_name] = renamed_name
+#
+#    return id_mapping
 
 def get_animation_paths(directory_path):
     animation_directory = os.path.join(directory_path, "_animations")
@@ -57,22 +57,23 @@ def create_manifest(input_file, csv_file, id_mapping):
     based on the culling_layer_mapping and creates the manifest accordingly.
     """
 
-    with open(input_file, 'r') as f:
-        data = json.load(f)
+    #with open(input_file, 'r') as f:
+    #    data = json.load(f)
 
-    with open(csv_file, 'r') as csv_file:
-        csv_reader = csv.DictReader(csv_file)
-        name_mapping = {row['Original']: row['Rename'] for row in csv_reader}
+    #with open(csv_file, 'r') as csv_file:
+    #    csv_reader = csv.DictReader(csv_file)
+    #    name_mapping = {row['Original']: row['Rename'] for row in csv_reader}
 
-    folder_name = data["name"]
-    output_file = f"{folder_name}_manifest.json"
+    #folder_name = data["name"]
+    #output_file = f"{folder_name}_manifest.json"
+    output_file = f"manifest.json"
 
     # Define the template for the manifest
     manifest = {
-        "thumbnail": f"./anata-vrm/_thumbnails/t_{folder_name}.jpg",
+        #"thumbnail": f"./loot-assets/_thumbnails/t_{folder_name}.jpg",
         "format": "vrm",
-        "traitsDirectory": f"./anata-vrm/male/",
-        "thumbnailsDirectory": f"./anata-vrm/male/",
+        "traitsDirectory": f"./loot-assets/male/",
+        "thumbnailsDirectory": f"./loot-assets/male/",
         "exportScale": 0.7,
         "animationPath": get_animation_paths(directory_path),
         "traitIconsDirectorySvg": "./assets/_icons/",
@@ -80,7 +81,7 @@ def create_manifest(input_file, csv_file, id_mapping):
         "defaultCullingLayer": -1,
         "defaultCullingDistance": [0.3, 0.3],
         "offset": [0, 0.48, 0],
-        "initialTraits": ["Body", "Hair", "Clothing", "Head", "Face Other", "Clips and Kanzashi", "Neck", "Masks", "Glasses", "Hats", "Head Accessory Other", "Hair Accessory Other", "Ribbons and Bows", "Earring", "Wings", "Halos", "Tail"],
+        "initialTraits": ["Body", "Head", "Hand", "Foot", "Chest", "Waist", "Neck"],
         "traits": [],
         "textureCollections": []
     }
@@ -88,11 +89,11 @@ def create_manifest(input_file, csv_file, id_mapping):
     for attribute in data["attributes"]:
         trait_type = attribute["trait_type"]
         trait_value = attribute["value"]
-        original_name = attribute.get("Original")  # Get the "Original" name from the attribute
-        renamed_name = attribute.get("Rename")
+        #original_name = attribute.get("Original")  # Get the "Original" name from the attribute
+        #renamed_name = attribute.get("Rename")
 
         # Use the original name if available in the CSV mapping, otherwise use the trait_value
-        display_name = name_mapping.get(original_name, trait_value)
+        #display_name = name_mapping.get(original_name, trait_value)
 
         trait_entry = {
             "trait": trait_type,
@@ -108,8 +109,8 @@ def create_manifest(input_file, csv_file, id_mapping):
                 {
                     "id": trait_value,
                     "name": trait_value,
-                    "directory": "BODY/male.vrm" if trait_type == "Body" else f"{folder_name}/{get_id_from_mapping(renamed_name or trait_value, id_mapping)}.vrm",
-                    "thumbnail": "BODY/male.png" if trait_type == "Body" else f"{folder_name}/thumbnails/{get_id_from_mapping(renamed_name or trait_value, id_mapping)}.png",
+                    "directory": "Body/orion.vrm" if trait_type == "Body" else f"{folder_name}/{get_id_from_mapping(renamed_name or trait_value, id_mapping)}.vrm",
+                    "thumbnail": "Body/orion.png" if trait_type == "Body" else f"{folder_name}/thumbnails/{get_id_from_mapping(renamed_name or trait_value, id_mapping)}.png",
                     "textureCollection": "Body Skin" if trait_type == "Body" else ""
                 }
             ]
