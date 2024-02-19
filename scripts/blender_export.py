@@ -8,7 +8,7 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 # Set the export path
-export_path = "/export/path/here/"
+export_path = "/home/jin/Desktop/Exports/loot/"
 
 # Get the path to the blend file from the command line argument
 blend_file = sys.argv[-1]
@@ -44,7 +44,7 @@ for obj in visible_objects:
         # Set the filename for the exported VRM file
         armature = mesh.parent
         # Can change this to 0.0 if you want
-        armature.data.vrm_addon_extension.spec_version = "1.0"
+        armature.data.vrm_addon_extension.spec_version = "0.0"
         filename = mesh.name + ".vrm"
         filepath = os.path.join(export_path, filename)
 

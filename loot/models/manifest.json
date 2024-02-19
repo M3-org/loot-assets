@@ -1,0 +1,644 @@
+{
+  "assetsLocation": "./loot-assets/",
+  "format": "vrm",
+  "traitsDirectory": "./models/",
+  "thumbnailsDirectory": "./models/",
+  "exportScale": 1,
+  "animationPath": [
+    "./animations/1_T-Pose.fbx",
+    "./animations/2_Idle.fbx",
+    "./animations/3_Walking.fbx",
+    "./animations/4_Waving.fbx"
+  ],
+  "traitIconsDirectorySvg": "./icons/",
+  "defaultCullingLayer": -1,
+  "defaultCullingDistance": [
+    0.1,
+    0.01
+  ],
+  "initialTraits": [
+    "Body",
+    "Head",
+    "Hand",
+    "Foot",
+    "Chest",
+    "Waist",
+    "Neck"
+  ],
+  "offset": [
+    0.0,
+    0.48,
+    0.0
+  ],
+  "traits": [
+    {
+      "trait": "Body",
+      "name": "Body",
+      "icon": "",
+      "type": "mesh",
+      "iconGradient": "",
+      "iconSvg": "BODY.svg",
+      "cullingLayer": 0,
+      "cameraTarget": {
+        "distance": 3.0,
+        "height": 0.8
+      },
+      "cullingDistance": [
+        0.1,
+        0.01
+      ],
+      "collection": [
+        {
+          "id": "orion",
+          "name": "orion",
+          "directory": "Body/orion.vrm",
+          "thumbnail": "Body/orion.png"
+        }
+      ]
+    },
+    {
+      "trait": "Head",
+      "name": "Head",
+      "icon": "",
+      "type": "mesh",
+      "iconGradient": "",
+      "iconSvg": "HEAD.svg",
+      "cullingLayer": -1,
+      "cameraTarget": {
+        "distance": 3.0,
+        "height": 0.8
+      },
+      "cullingDistance": [
+        0.1,
+        0.01
+      ],
+      "collection": [
+        {
+          "id": "leather_cap",
+          "name": "leather cap",
+          "directory": "Head/leather_cap.vrm",
+          "thumbnail": "Head/leather_cap.png"
+        },
+        {
+          "id": "linen_hood",
+          "name": "linen hood",
+          "directory": "Head/linen_hood.vrm",
+          "thumbnail": "Head/linen_hood.png"
+        },
+        {
+          "id": "great_helm",
+          "name": "great helm",
+          "directory": "Head/great_helm.vrm",
+          "thumbnail": "Head/great_helm.png"
+        },
+        {
+          "id": "cap",
+          "name": "cap",
+          "directory": "Head/cap.vrm",
+          "thumbnail": "Head/cap.png"
+        },
+        {
+          "id": "war_cap",
+          "name": "war cap",
+          "directory": "Head/war_cap.vrm",
+          "thumbnail": "Head/war_cap.png"
+        },
+        {
+          "id": "full_helm",
+          "name": "full helm",
+          "directory": "Head/full_helm.vrm",
+          "thumbnail": "Head/full_helm.png"
+        },
+        {
+          "id": "ornate_helm",
+          "name": "ornate helm",
+          "directory": "Head/ornate_helm.vrm",
+          "thumbnail": "Head/ornate_helm.png"
+        },
+        {
+          "id": "ancient_helm",
+          "name": "ancient helm",
+          "directory": "Head/ancient_helm.vrm",
+          "thumbnail": "Head/ancient_helm.png"
+        },
+        {
+          "id": "helm",
+          "name": "helm",
+          "directory": "Head/helm.vrm",
+          "thumbnail": "Head/helm.png"
+        },
+        {
+          "id": "crown",
+          "name": "crown",
+          "directory": "Head/crown.vrm",
+          "thumbnail": "Head/crown.png"
+        },
+        {
+          "id": "dragons_crown",
+          "name": "dragons crown",
+          "directory": "Head/dragons_crown.vrm",
+          "thumbnail": "Head/dragons_crown.png"
+        },
+        {
+          "id": "divine_hood",
+          "name": "divine hood",
+          "directory": "Head/divine_hood.vrm",
+          "thumbnail": "Head/divine_hood.png"
+        },
+        {
+          "id": "silk_hood",
+          "name": "silk hood",
+          "directory": "Head/silk_hood.vrm",
+          "thumbnail": "Head/silk_hood.png"
+        },
+        {
+          "id": "demon_crown",
+          "name": "demon crown",
+          "directory": "Head/demon_crown.vrm",
+          "thumbnail": "Head/demon_crown.png"
+        },
+        {
+          "id": "hood",
+          "name": "hood",
+          "directory": "Head/hood.vrm",
+          "thumbnail": "Head/hood.png"
+        }
+      ]
+    },
+    {
+      "trait": "Hand",
+      "name": "Hand",
+      "icon": "",
+      "type": "mesh",
+      "iconGradient": "",
+      "iconSvg": "HAND.svg",
+      "cullingLayer": -1,
+      "cameraTarget": {
+        "distance": 3.0,
+        "height": 0.8
+      },
+      "cullingDistance": [
+        0.1,
+        0.01
+      ],
+      "collection": [
+        {
+          "id": "holy_gauntlets",
+          "name": "holy gauntlets",
+          "directory": "Hand/holy_gauntlets.vrm",
+          "thumbnail": "Hand/holy_gauntlets.png"
+        },
+        {
+          "id": "ornate_gloves",
+          "name": "ornate gloves",
+          "directory": "Hand/ornate_gloves.vrm",
+          "thumbnail": "Hand/ornate_gloves.png"
+        },
+        {
+          "id": "heavy_gloves",
+          "name": "heavy gloves",
+          "directory": "Hand/heavy_gloves.vrm",
+          "thumbnail": "Hand/heavy_gloves.png"
+        },
+        {
+          "id": "gauntlets",
+          "name": "gauntlets",
+          "directory": "Hand/gauntlets.vrm",
+          "thumbnail": "Hand/gauntlets.png"
+        },
+        {
+          "id": "silk_gloves",
+          "name": "silk gloves",
+          "directory": "Hand/silk_gloves.vrm",
+          "thumbnail": "Hand/silk_gloves.png"
+        },
+        {
+          "id": "gloves",
+          "name": "gloves",
+          "directory": "Hand/gloves.vrm",
+          "thumbnail": "Hand/gloves.png"
+        },
+        {
+          "id": "demon_hands",
+          "name": "demon hands",
+          "directory": "Hand/demon_hands.vrm",
+          "thumbnail": "Hand/demon_hands.png"
+        },
+        {
+          "id": "leather_gloves",
+          "name": "leather gloves",
+          "directory": "Hand/leather_gloves.vrm",
+          "thumbnail": "Hand/leather_gloves.png"
+        },
+        {
+          "id": "hard_leather_glove",
+          "name": "hard leather glove",
+          "directory": "Hand/hard_leather_glove.vrm",
+          "thumbnail": "Hand/hard_leather_glove.png"
+        },
+        {
+          "id": "wool_gloves",
+          "name": "wool gloves",
+          "directory": "Hand/wool_gloves.vrm",
+          "thumbnail": "Hand/wool_gloves.png"
+        },
+        {
+          "id": "chain_gloves",
+          "name": "chain gloves",
+          "directory": "Hand/chain_gloves.vrm",
+          "thumbnail": "Hand/chain_gloves.png"
+        },
+        {
+          "id": "divine_gloves",
+          "name": "divine gloves",
+          "directory": "Hand/divine_gloves.vrm",
+          "thumbnail": "Hand/divine_gloves.png"
+        },
+        {
+          "id": "dragonscale_gloves",
+          "name": "dragonscale gloves",
+          "directory": "Hand/dragonscale_gloves.vrm",
+          "thumbnail": "Hand/dragonscale_gloves.png"
+        },
+        {
+          "id": "linen_gloves",
+          "name": "linen gloves",
+          "directory": "Hand/linen_gloves.vrm",
+          "thumbnail": "Hand/linen_gloves.png"
+        },
+        {
+          "id": "studded_leather_gloves",
+          "name": "studded leather gloves",
+          "directory": "Hand/studded_leather_gloves.vrm",
+          "thumbnail": "Hand/studded_leather_gloves.png"
+        }
+      ]
+    },
+    {
+      "trait": "Foot",
+      "name": "Foot",
+      "icon": "",
+      "type": "mesh",
+      "iconGradient": "",
+      "iconSvg": "FOOT.svg",
+      "cullingLayer": -1,
+      "cameraTarget": {
+        "distance": 3.0,
+        "height": 0.8
+      },
+      "cullingDistance": [
+        0.1,
+        0.01
+      ],
+      "collection": [
+        {
+          "id": "leather_boots",
+          "name": "leather boots",
+          "directory": "Foot/leather_boots.vrm",
+          "thumbnail": "Foot/leather_boots.png"
+        },
+        {
+          "id": "greaves",
+          "name": "greaves",
+          "directory": "Foot/greaves.vrm",
+          "thumbnail": "Foot/greaves.png"
+        },
+        {
+          "id": "chain_boots",
+          "name": "chain boots",
+          "directory": "Foot/chain_boots.vrm",
+          "thumbnail": "Foot/chain_boots.png"
+        },
+        {
+          "id": "ornate_greaves",
+          "name": "ornate greaves",
+          "directory": "Foot/ornate_greaves.vrm",
+          "thumbnail": "Foot/ornate_greaves.png"
+        },
+        {
+          "id": "heavy_boots",
+          "name": "heavy boots",
+          "directory": "Foot/heavy_boots.vrm",
+          "thumbnail": "Foot/heavy_boots.png"
+        },
+        {
+          "id": "hard_leather_boots",
+          "name": "hard leather boots",
+          "directory": "Foot/hard_leather_boots.vrm",
+          "thumbnail": "Foot/hard_leather_boots.png"
+        },
+        {
+          "id": "studded_leather_boots",
+          "name": "studded leather boots",
+          "directory": "Foot/studded_leather_boots.vrm",
+          "thumbnail": "Foot/studded_leather_boots.png"
+        },
+        {
+          "id": "holy_greaves",
+          "name": "holy greaves",
+          "directory": "Foot/holy_greaves.vrm",
+          "thumbnail": "Foot/holy_greaves.png"
+        },
+        {
+          "id": "divine_slippers",
+          "name": "divine slippers",
+          "directory": "Foot/divine_slippers.vrm",
+          "thumbnail": "Foot/divine_slippers.png"
+        },
+        {
+          "id": "dragonskin_boots",
+          "name": "dragonskin boots",
+          "directory": "Foot/dragonskin_boots.vrm",
+          "thumbnail": "Foot/dragonskin_boots.png"
+        },
+        {
+          "id": "shoes",
+          "name": "shoes",
+          "directory": "Foot/shoes.vrm",
+          "thumbnail": "Foot/shoes.png"
+        },
+        {
+          "id": "wool_shoes",
+          "name": "wool shoes",
+          "directory": "Foot/wool_shoes.vrm",
+          "thumbnail": "Foot/wool_shoes.png"
+        },
+        {
+          "id": "linen_shoes",
+          "name": "linen shoes",
+          "directory": "Foot/linen_shoes.vrm",
+          "thumbnail": "Foot/linen_shoes.png"
+        },
+        {
+          "id": "silk_slippers",
+          "name": "silk slippers",
+          "directory": "Foot/silk_slippers.vrm",
+          "thumbnail": "Foot/silk_slippers.png"
+        },
+        {
+          "id": "demonhide_boots",
+          "name": "demonhide boots",
+          "directory": "Foot/demonhide_boots.vrm",
+          "thumbnail": "Foot/demonhide_boots.png"
+        }
+      ]
+    },
+    {
+      "trait": "Chest",
+      "name": "Chest",
+      "icon": "",
+      "type": "mesh",
+      "iconGradient": "",
+      "iconSvg": "CHEST.svg",
+      "cullingLayer": 0,
+      "cameraTarget": {
+        "distance": 3.0,
+        "height": 0.8
+      },
+      "cullingDistance": [
+        0.1,
+        0.01
+      ],
+      "collection": [
+        {
+          "id": "plate_mail",
+          "name": "plate mail",
+          "directory": "Chest/plate_mail.vrm",
+          "thumbnail": "Chest/plate_mail.png"
+        },
+        {
+          "id": "leather_armor",
+          "name": "leather armor",
+          "directory": "Chest/leather_armor.vrm",
+          "thumbnail": "Chest/leather_armor.png"
+        },
+        {
+          "id": "hard_leather_armor",
+          "name": "hard leather armor",
+          "directory": "Chest/hard_leather_armor.vrm",
+          "thumbnail": "Chest/hard_leather_armor.png"
+        },
+        {
+          "id": "linen_robe",
+          "name": "linen robe",
+          "directory": "Chest/linen_robe.vrm",
+          "thumbnail": "Chest/linen_robe.png"
+        },
+        {
+          "id": "studded_leather_armor",
+          "name": "studded leather armor",
+          "directory": "Chest/studded_leather_armor.vrm",
+          "thumbnail": "Chest/studded_leather_armor.png"
+        },
+        {
+          "id": "divine_robe",
+          "name": "divine robe",
+          "directory": "Chest/divine_robe.vrm",
+          "thumbnail": "Chest/divine_robe.png"
+        },
+        {
+          "id": "dragonskin_armor",
+          "name": "dragonskin armor",
+          "directory": "Chest/dragonskin_armor.vrm",
+          "thumbnail": "Chest/dragonskin_armor.png"
+        },
+        {
+          "id": "robe",
+          "name": "robe",
+          "directory": "Chest/robe.vrm",
+          "thumbnail": "Chest/robe.png"
+        },
+        {
+          "id": "holy_chestplate",
+          "name": "holy chestplate",
+          "directory": "Chest/holy_chestplate.vrm",
+          "thumbnail": "Chest/holy_chestplate.png"
+        },
+        {
+          "id": "demon_husk",
+          "name": "demon husk",
+          "directory": "Chest/demon_husk.vrm",
+          "thumbnail": "Chest/demon_husk.png"
+        },
+        {
+          "id": "silk_robe",
+          "name": "silk robe",
+          "directory": "Chest/silk_robe.vrm",
+          "thumbnail": "Chest/silk_robe.png"
+        },
+        {
+          "id": "ornate_chestplate",
+          "name": "ornate chestplate",
+          "directory": "Chest/ornate_chestplate.vrm",
+          "thumbnail": "Chest/ornate_chestplate.png"
+        },
+        {
+          "id": "chain_mail",
+          "name": "chain mail",
+          "directory": "Chest/chain_mail.vrm",
+          "thumbnail": "Chest/chain_mail.png"
+        },
+        {
+          "id": "shirt",
+          "name": "shirt",
+          "directory": "Chest/shirt.vrm",
+          "thumbnail": "Chest/shirt.png"
+        },
+        {
+          "id": "ring_mail",
+          "name": "ring mail",
+          "directory": "Chest/ring_mail.vrm",
+          "thumbnail": "Chest/ring_mail.png"
+        }
+      ]
+    },
+    {
+      "trait": "Neck",
+      "name": "Neck",
+      "icon": "",
+      "type": "mesh",
+      "iconGradient": "",
+      "iconSvg": "NECK.svg",
+      "cullingLayer": -1,
+      "cameraTarget": {
+        "distance": 3.0,
+        "height": 0.8
+      },
+      "cullingDistance": [
+        0.1,
+        0.01
+      ],
+      "collection": [
+        {
+          "id": "amulet",
+          "name": "amulet",
+          "directory": "Neck/amulet.vrm",
+          "thumbnail": "Neck/amulet.png"
+        },
+        {
+          "id": "pendant",
+          "name": "pendant",
+          "directory": "Neck/pendant.vrm",
+          "thumbnail": "Neck/pendant.png"
+        },
+        {
+          "id": "necklace",
+          "name": "necklace",
+          "directory": "Neck/necklace.vrm",
+          "thumbnail": "Neck/necklace.png"
+        }
+      ]
+    },
+    {
+      "trait": "Waist",
+      "name": "Waist",
+      "icon": "",
+      "type": "mesh",
+      "iconGradient": "",
+      "iconSvg": "WAIST.svg",
+      "cullingLayer": -1,
+      "cameraTarget": {
+        "distance": 3.0,
+        "height": 0.8
+      },
+      "cullingDistance": [
+        0.1,
+        0.01
+      ],
+      "collection": [
+        {
+          "id": "war_belt",
+          "name": "war belt",
+          "directory": "Waist/war_belt.vrm",
+          "thumbnail": "Waist/war_belt.png"
+        },
+        {
+          "id": "heavy_belt",
+          "name": "heavy belt",
+          "directory": "Waist/heavy_belt.vrm",
+          "thumbnail": "Waist/heavy_belt.png"
+        },
+        {
+          "id": "linen_sash",
+          "name": "linen sash",
+          "directory": "Waist/linen_sash.vrm",
+          "thumbnail": "Waist/linen_sash.png"
+        },
+        {
+          "id": "studded_leather_belt",
+          "name": "studded leather belt",
+          "directory": "Waist/studded_leather_belt.vrm",
+          "thumbnail": "Waist/studded_leather_belt.png"
+        },
+        {
+          "id": "leather_belt",
+          "name": "leather belt",
+          "directory": "Waist/leather_belt.vrm",
+          "thumbnail": "Waist/leather_belt.png"
+        },
+        {
+          "id": "hard_leather_belt",
+          "name": "hard leather belt",
+          "directory": "Waist/hard_leather_belt.vrm",
+          "thumbnail": "Waist/hard_leather_belt.png"
+        },
+        {
+          "id": "brightsilk_sash",
+          "name": "brightsilk sash",
+          "directory": "Waist/brightsilk_sash.vrm",
+          "thumbnail": "Waist/brightsilk_sash.png"
+        },
+        {
+          "id": "dragonskin_belt",
+          "name": "dragonskin belt",
+          "directory": "Waist/dragonskin_belt.vrm",
+          "thumbnail": "Waist/dragonskin_belt.png"
+        },
+        {
+          "id": "sash",
+          "name": "sash",
+          "directory": "Waist/sash.vrm",
+          "thumbnail": "Waist/sash.png"
+        },
+        {
+          "id": "wool_sash",
+          "name": "wool sash",
+          "directory": "Waist/wool_sash.vrm",
+          "thumbnail": "Waist/wool_sash.png"
+        },
+        {
+          "id": "demonhide_belt",
+          "name": "demonhide belt",
+          "directory": "Waist/demonhide_belt.vrm",
+          "thumbnail": "Waist/demonhide_belt.png"
+        },
+        {
+          "id": "plated_blet",
+          "name": "plated blet",
+          "directory": "Waist/plated_blet.vrm",
+          "thumbnail": "Waist/plated_blet.png"
+        },
+        {
+          "id": "ornate_belt",
+          "name": "ornate belt",
+          "directory": "Waist/ornate_belt.vrm",
+          "thumbnail": "Waist/ornate_belt.png"
+        },
+        {
+          "id": "silk_sash",
+          "name": "silk sash",
+          "directory": "Waist/silk_sash.vrm",
+          "thumbnail": "Waist/silk_sash.png"
+        },
+        {
+          "id": "mesh_belt",
+          "name": "mesh belt",
+          "directory": "Waist/mesh_belt.vrm",
+          "thumbnail": "Waist/mesh_belt.png"
+        }
+      ]
+    }
+  ],
+  "textureCollections": [],
+  "colorCollections": []
+}

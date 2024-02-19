@@ -3,13 +3,13 @@ import json
 
 def generate_manifest(directory_path):
     manifest_template = {
-        "assetsLocation": "./loot-assets/",
+        "assetsLocation": "./loot/",
         "format": "vrm",
-        "traitsDirectory": "./loot-assets/models/",
-        "thumbnailsDirectory": "./loot-assets/models/",
+        "traitsDirectory": "./loot/models/",
+        "thumbnailsDirectory": "./loot/models/",
         "exportScale": 1,
         "animationPath": get_animation_paths(),
-        "traitIconsDirectorySvg": "./loot-assets/icons/",
+        "traitIconsDirectorySvg": "./loot/icons/",
         "defaultCullingLayer": -1,
         "defaultCullingDistance": [0.1, 0.01],
         "initialTraits": ["Body", "Head", "Hand", "Foot", "Chest", "Waist", "Neck"], 
