@@ -3,8 +3,8 @@
     "name": "Masculine",
     "description": "Anata Loot",
     "portrait": "./assets/portraitImages/anata_m_loot.png",
-    "manifest":"./loot-assets/models/manifest.json",
-    "icon": "./loot-assets/icon.svg",
+    "manifest":"./loot-assets/loot/models/manifest.json",
+    "icon": "./loot-assets/loot/icon.svg",
     "format": "vrm"
   }
 ]
