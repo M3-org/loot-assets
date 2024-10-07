@@ -5,14 +5,17 @@ def generate_manifest(directory_path):
     manifest_template = {
         "assetsLocation": "./loot-assets/",
         "format": "vrm",
-        "traitsDirectory": "/anata/female/",
+        "traitsDirectory": "/anata/male/",
         "thumbnailsDirectory": "./loot/thumbnails/",
         "exportScale": 1,
         "animationPath": get_animation_paths(),
         "traitIconsDirectorySvg": "./loot/icons/",
         "defaultCullingLayer": -1,
         "defaultCullingDistance": [0.1, 0.01],
-        "initialTraits": ["Body", "Head", "Hands", "Shoes", "Chest", "Waist", "Neck"], 
+        "requiredTraits": ["Body"], 
+        "initialTraits": ["Body", "Head", "Hands", "Shoes", "Chest", "Waist", "Neck", "Weapon"], 
+        "randomTraits": ["Body", "Head", "Hands", "Shoes", "Chest", "Waist", "Neck", "Weapon"], 
+        "colliderTraits": ["Body"],
         "offset": [0.0, 0.48, 0.0],
         "traits": generate_traits(directory_path),
         "textureCollections": [],
@@ -74,10 +77,10 @@ def generate_collection(directory_path, trait_name):
     ]
 
 if __name__ == "__main__":
-    directory_path = "./anata/female/"
+    directory_path = "./anata/male/"
     manifest_content = generate_manifest(directory_path)
 
-    with open("./anata/female/manifest.json", "w") as manifest_file:
+    with open("./anata/male/manifest.json", "w") as manifest_file:
         manifest_file.write(manifest_content)
 
     print("Manifest file generated successfully.")

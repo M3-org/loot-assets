@@ -16,6 +16,9 @@
     0.1,
     0.01
   ],
+  "requiredTraits": [
+    "Body"
+  ],
   "initialTraits": [
     "Body",
     "Head",
@@ -23,7 +26,21 @@
     "Shoes",
     "Chest",
     "Waist",
-    "Neck"
+    "Neck",
+    "Weapon"
+  ],
+  "randomTraits": [
+    "Body",
+    "Head",
+    "Hands",
+    "Shoes",
+    "Chest",
+    "Waist",
+    "Neck",
+    "Weapon"
+  ],
+  "colliderTraits": [
+    "Body"
   ],
   "offset": [
     0.0,
