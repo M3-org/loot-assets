@@ -6,7 +6,7 @@ def generate_manifest(directory_path):
         "assetsLocation": "./loot/",
         "format": "vrm",
         "traitsDirectory": "./loot/models/",
-        "thumbnailsDirectory": "./loot/models/",
+        "thumbnailsDirectory": "./loot/thumbnails/",
         "exportScale": 1,
         "animationPath": get_animation_paths(),
         "traitIconsDirectorySvg": "./loot/icons/",
@@ -20,21 +20,6 @@ def generate_manifest(directory_path):
     }
 
     return json.dumps(manifest_template, indent=2)
-
-#def get_animation_paths(directory_path):
-#    #animation_directory = os.path.join(directory_path, "animations")
-#    # change animation directory to current directory and animation folder
-#    animation_directory = os.path.join("./loot-assets/animations")
-#    #animation_directory = os.path.join(directory_path, "animations")
-#    animation_paths = [os.path.join("./loot-assets/animations", file) for file in os.listdir(animation_directory) if file.endswith(".fbx")]
-#    return sorted(animation_paths)
-
-
-#def get_animation_paths():
-#    animation_directory = "./loot-assets/animations"
-#    animation_paths = [os.path.join(animation_directory, file) for file in os.listdir(animation_directory) if file.endswith(".fbx")]
-#    return sorted(animation_paths)
-
 
 def get_animation_paths():
     animation_directory = "./animations"

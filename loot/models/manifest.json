@@ -19,8 +19,8 @@
   "initialTraits": [
     "Body",
     "Head",
-    "Hand",
-    "Foot",
+    "Hands",
+    "Shoes",
     "Chest",
     "Waist",
     "Neck"
@@ -166,8 +166,8 @@
       ]
     },
     {
-      "trait": "Hand",
-      "name": "Hand",
+      "trait": "Hands",
+      "name": "Hands",
       "icon": "",
       "type": "mesh",
       "iconGradient": "",
@@ -185,98 +185,98 @@
         {
           "id": "holy_gauntlets",
           "name": "holy gauntlets",
-          "directory": "Hand/holy_gauntlets.vrm",
-          "thumbnail": "Hand/holy_gauntlets.png"
+          "directory": "Hands/holy_gauntlets.vrm",
+          "thumbnail": "Hands/holy_gauntlets.png"
         },
         {
           "id": "ornate_gloves",
           "name": "ornate gloves",
-          "directory": "Hand/ornate_gloves.vrm",
-          "thumbnail": "Hand/ornate_gloves.png"
+          "directory": "Hands/ornate_gloves.vrm",
+          "thumbnail": "Hands/ornate_gloves.png"
         },
         {
           "id": "heavy_gloves",
           "name": "heavy gloves",
-          "directory": "Hand/heavy_gloves.vrm",
-          "thumbnail": "Hand/heavy_gloves.png"
+          "directory": "Hands/heavy_gloves.vrm",
+          "thumbnail": "Hands/heavy_gloves.png"
         },
         {
           "id": "gauntlets",
           "name": "gauntlets",
-          "directory": "Hand/gauntlets.vrm",
-          "thumbnail": "Hand/gauntlets.png"
+          "directory": "Hands/gauntlets.vrm",
+          "thumbnail": "Hands/gauntlets.png"
         },
         {
           "id": "silk_gloves",
           "name": "silk gloves",
-          "directory": "Hand/silk_gloves.vrm",
-          "thumbnail": "Hand/silk_gloves.png"
+          "directory": "Hands/silk_gloves.vrm",
+          "thumbnail": "Hands/silk_gloves.png"
         },
         {
           "id": "gloves",
           "name": "gloves",
-          "directory": "Hand/gloves.vrm",
-          "thumbnail": "Hand/gloves.png"
+          "directory": "Hands/gloves.vrm",
+          "thumbnail": "Hands/gloves.png"
         },
         {
           "id": "demon_hands",
           "name": "demon hands",
-          "directory": "Hand/demon_hands.vrm",
-          "thumbnail": "Hand/demon_hands.png"
+          "directory": "Hands/demon_hands.vrm",
+          "thumbnail": "Hands/demon_hands.png"
         },
         {
           "id": "leather_gloves",
           "name": "leather gloves",
-          "directory": "Hand/leather_gloves.vrm",
-          "thumbnail": "Hand/leather_gloves.png"
+          "directory": "Hands/leather_gloves.vrm",
+          "thumbnail": "Hands/leather_gloves.png"
         },
         {
           "id": "hard_leather_glove",
           "name": "hard leather glove",
-          "directory": "Hand/hard_leather_glove.vrm",
-          "thumbnail": "Hand/hard_leather_glove.png"
+          "directory": "Hands/hard_leather_glove.vrm",
+          "thumbnail": "Hands/hard_leather_glove.png"
         },
         {
           "id": "wool_gloves",
           "name": "wool gloves",
-          "directory": "Hand/wool_gloves.vrm",
-          "thumbnail": "Hand/wool_gloves.png"
+          "directory": "Hands/wool_gloves.vrm",
+          "thumbnail": "Hands/wool_gloves.png"
         },
         {
           "id": "chain_gloves",
           "name": "chain gloves",
-          "directory": "Hand/chain_gloves.vrm",
-          "thumbnail": "Hand/chain_gloves.png"
+          "directory": "Hands/chain_gloves.vrm",
+          "thumbnail": "Hands/chain_gloves.png"
         },
         {
           "id": "divine_gloves",
           "name": "divine gloves",
-          "directory": "Hand/divine_gloves.vrm",
-          "thumbnail": "Hand/divine_gloves.png"
+          "directory": "Hands/divine_gloves.vrm",
+          "thumbnail": "Hands/divine_gloves.png"
         },
         {
           "id": "dragonscale_gloves",
           "name": "dragonscale gloves",
-          "directory": "Hand/dragonscale_gloves.vrm",
-          "thumbnail": "Hand/dragonscale_gloves.png"
+          "directory": "Hands/dragonscale_gloves.vrm",
+          "thumbnail": "Hands/dragonscale_gloves.png"
         },
         {
           "id": "linen_gloves",
           "name": "linen gloves",
-          "directory": "Hand/linen_gloves.vrm",
-          "thumbnail": "Hand/linen_gloves.png"
+          "directory": "Hands/linen_gloves.vrm",
+          "thumbnail": "Hands/linen_gloves.png"
         },
         {
           "id": "studded_leather_gloves",
           "name": "studded leather gloves",
-          "directory": "Hand/studded_leather_gloves.vrm",
-          "thumbnail": "Hand/studded_leather_gloves.png"
+          "directory": "Hands/studded_leather_gloves.vrm",
+          "thumbnail": "Hands/studded_leather_gloves.png"
         }
       ]
     },
     {
-      "trait": "Foot",
-      "name": "Foot",
+      "trait": "Shoes",
+      "name": "Shoes",
       "icon": "",
       "type": "mesh",
       "iconGradient": "",
@@ -294,92 +294,92 @@
         {
           "id": "leather_boots",
           "name": "leather boots",
-          "directory": "Foot/leather_boots.vrm",
-          "thumbnail": "Foot/leather_boots.png"
+          "directory": "Shoes/leather_boots.vrm",
+          "thumbnail": "Shoes/leather_boots.png"
         },
         {
           "id": "greaves",
           "name": "greaves",
-          "directory": "Foot/greaves.vrm",
-          "thumbnail": "Foot/greaves.png"
+          "directory": "Shoes/greaves.vrm",
+          "thumbnail": "Shoes/greaves.png"
         },
         {
           "id": "chain_boots",
           "name": "chain boots",
-          "directory": "Foot/chain_boots.vrm",
-          "thumbnail": "Foot/chain_boots.png"
+          "directory": "Shoes/chain_boots.vrm",
+          "thumbnail": "Shoes/chain_boots.png"
         },
         {
           "id": "ornate_greaves",
           "name": "ornate greaves",
-          "directory": "Foot/ornate_greaves.vrm",
-          "thumbnail": "Foot/ornate_greaves.png"
+          "directory": "Shoes/ornate_greaves.vrm",
+          "thumbnail": "Shoes/ornate_greaves.png"
         },
         {
           "id": "heavy_boots",
           "name": "heavy boots",
-          "directory": "Foot/heavy_boots.vrm",
-          "thumbnail": "Foot/heavy_boots.png"
+          "directory": "Shoes/heavy_boots.vrm",
+          "thumbnail": "Shoes/heavy_boots.png"
         },
         {
           "id": "hard_leather_boots",
           "name": "hard leather boots",
-          "directory": "Foot/hard_leather_boots.vrm",
-          "thumbnail": "Foot/hard_leather_boots.png"
+          "directory": "Shoes/hard_leather_boots.vrm",
+          "thumbnail": "Shoes/hard_leather_boots.png"
         },
         {
           "id": "studded_leather_boots",
           "name": "studded leather boots",
-          "directory": "Foot/studded_leather_boots.vrm",
-          "thumbnail": "Foot/studded_leather_boots.png"
+          "directory": "Shoes/studded_leather_boots.vrm",
+          "thumbnail": "Shoes/studded_leather_boots.png"
         },
         {
           "id": "holy_greaves",
           "name": "holy greaves",
-          "directory": "Foot/holy_greaves.vrm",
-          "thumbnail": "Foot/holy_greaves.png"
+          "directory": "Shoes/holy_greaves.vrm",
+          "thumbnail": "Shoes/holy_greaves.png"
         },
         {
           "id": "divine_slippers",
           "name": "divine slippers",
-          "directory": "Foot/divine_slippers.vrm",
-          "thumbnail": "Foot/divine_slippers.png"
+          "directory": "Shoes/divine_slippers.vrm",
+          "thumbnail": "Shoes/divine_slippers.png"
         },
         {
           "id": "dragonskin_boots",
           "name": "dragonskin boots",
-          "directory": "Foot/dragonskin_boots.vrm",
-          "thumbnail": "Foot/dragonskin_boots.png"
+          "directory": "Shoes/dragonskin_boots.vrm",
+          "thumbnail": "Shoes/dragonskin_boots.png"
         },
         {
           "id": "shoes",
           "name": "shoes",
-          "directory": "Foot/shoes.vrm",
-          "thumbnail": "Foot/shoes.png"
+          "directory": "Shoes/shoes.vrm",
+          "thumbnail": "Shoes/shoes.png"
         },
         {
           "id": "wool_shoes",
           "name": "wool shoes",
-          "directory": "Foot/wool_shoes.vrm",
-          "thumbnail": "Foot/wool_shoes.png"
+          "directory": "Shoes/wool_shoes.vrm",
+          "thumbnail": "Shoes/wool_shoes.png"
         },
         {
           "id": "linen_shoes",
           "name": "linen shoes",
-          "directory": "Foot/linen_shoes.vrm",
-          "thumbnail": "Foot/linen_shoes.png"
+          "directory": "Shoes/linen_shoes.vrm",
+          "thumbnail": "Shoes/linen_shoes.png"
         },
         {
           "id": "silk_slippers",
           "name": "silk slippers",
-          "directory": "Foot/silk_slippers.vrm",
-          "thumbnail": "Foot/silk_slippers.png"
+          "directory": "Shoes/silk_slippers.vrm",
+          "thumbnail": "Shoes/silk_slippers.png"
         },
         {
           "id": "demonhide_boots",
           "name": "demonhide boots",
-          "directory": "Foot/demonhide_boots.vrm",
-          "thumbnail": "Foot/demonhide_boots.png"
+          "directory": "Shoes/demonhide_boots.vrm",
+          "thumbnail": "Shoes/demonhide_boots.png"
         }
       ]
     },

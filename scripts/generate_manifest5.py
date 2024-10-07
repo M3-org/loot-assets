@@ -17,7 +17,8 @@ culling_layer_mapping = {
     "Hand": -1,
     "Head": -1,
     "Neck": -1,
-    "Waist": -1
+    "Waist": -1,
+    "Weapon": -1
 }
 
 #def read_csv_mapping(csv_file_path):
@@ -81,7 +82,7 @@ def create_manifest(input_file, csv_file, id_mapping):
         "defaultCullingLayer": -1,
         "defaultCullingDistance": [0.3, 0.3],
         "offset": [0, 0.48, 0],
-        "initialTraits": ["Body", "Head", "Hand", "Foot", "Chest", "Waist", "Neck"],
+        "initialTraits": ["Body", "Head", "Hand", "Foot", "Chest", "Waist", "Neck", "Weapon"],
         "traits": [],
         "textureCollections": []
     }
