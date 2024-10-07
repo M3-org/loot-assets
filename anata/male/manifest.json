@@ -1,8 +1,8 @@
 {
-  "assetsLocation": "./loot-assets/anata/male/",
+  "assetsLocation": "./loot-assets/",
   "format": "vrm",
-  "traitsDirectory": "",
-  "thumbnailsDirectory": "./loot-assets/loot/thumbnails/",
+  "traitsDirectory": "/anata/male/",
+  "thumbnailsDirectory": "./loot/thumbnails/",
   "exportScale": 1,
   "animationPath": [
     "./animations/1_T-Pose.fbx",
@@ -10,7 +10,7 @@
     "./animations/3_Walking.fbx",
     "./animations/4_Waving.fbx"
   ],
-  "traitIconsDirectorySvg": "./loot-assets/loot/icons/",
+  "traitIconsDirectorySvg": "./loot/icons/",
   "defaultCullingLayer": -1,
   "defaultCullingDistance": [
     0.1,
