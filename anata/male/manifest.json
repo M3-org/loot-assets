@@ -1,5 +1,5 @@
 {
-  "assetsLocation": "./loot-assets/",
+  "assetsLocation": "https://m3-org.github.io/loot-assets/",
   "format": "vrm",
   "traitsDirectory": "/anata/male/",
   "thumbnailsDirectory": "./loot/thumbnails/",
