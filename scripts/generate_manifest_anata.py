@@ -3,13 +3,13 @@ import json
 
 def generate_manifest(directory_path):
     manifest_template = {
-        "assetsLocation": "./anata/female/",
+        "assetsLocation": "./loot-assets/anata/male/",
         "format": "vrm",
-        "traitsDirectory": "./anata/female/",
-        "thumbnailsDirectory": "./loot/thumbnails/",
+        "traitsDirectory": "",
+        "thumbnailsDirectory": "./loot-assets/loot/thumbnails/",
         "exportScale": 1,
         "animationPath": get_animation_paths(),
-        "traitIconsDirectorySvg": "./loot/icons/",
+        "traitIconsDirectorySvg": "./loot-assets/loot/icons/",
         "defaultCullingLayer": -1,
         "defaultCullingDistance": [0.1, 0.01],
         "initialTraits": ["Body", "Head", "Hands", "Shoes", "Chest", "Waist", "Neck"], 
@@ -22,7 +22,7 @@ def generate_manifest(directory_path):
     return json.dumps(manifest_template, indent=2)
 
 def get_animation_paths():
-    animation_directory = "./animations"
+    animation_directory = "./loot-assets/animations"
     animation_paths = [os.path.join(animation_directory, file) for file in os.listdir(animation_directory) if file.endswith(".fbx")]
     return sorted(animation_paths)
 
@@ -37,6 +37,7 @@ def generate_traits(directory_path):
         "Shoes": -1,
         "Chest": 0,
         "Neck": -1,
+        "Weapon": -1,
         "Waist": -1
     }
 
@@ -73,10 +74,10 @@ def generate_collection(directory_path, trait_name):
     ]
 
 if __name__ == "__main__":
-    directory_path = "./anata/female/"
+    directory_path = "./anata/male/"
     manifest_content = generate_manifest(directory_path)
 
-    with open("./anata/female/manifest.json", "w") as manifest_file:
+    with open("./anata/male/manifest.json", "w") as manifest_file:
         manifest_file.write(manifest_content)
 
     print("Manifest file generated successfully.")

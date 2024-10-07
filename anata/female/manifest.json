@@ -1,8 +1,8 @@
 {
-  "assetsLocation": "./anata/female/",
+  "assetsLocation": "./loot-assets/anata/female/",
   "format": "vrm",
-  "traitsDirectory": "./anata/female/",
-  "thumbnailsDirectory": "./loot/thumbnails/",
+  "traitsDirectory": "",
+  "thumbnailsDirectory": "./loot-assets/loot/thumbnails/",
   "exportScale": 1,
   "animationPath": [
     "./animations/1_T-Pose.fbx",
@@ -10,7 +10,7 @@
     "./animations/3_Walking.fbx",
     "./animations/4_Waving.fbx"
   ],
-  "traitIconsDirectorySvg": "./loot/icons/",
+  "traitIconsDirectorySvg": "./loot-assets/loot/icons/",
   "defaultCullingLayer": -1,
   "defaultCullingDistance": [
     0.1,
@@ -520,6 +520,133 @@
           "name": "necklace",
           "directory": "Neck/necklace.vrm",
           "thumbnail": "Neck/necklace.png"
+        }
+      ]
+    },
+    {
+      "trait": "Weapon",
+      "name": "Weapon",
+      "icon": "",
+      "type": "mesh",
+      "iconGradient": "",
+      "iconSvg": "WEAPON.svg",
+      "cullingLayer": -1,
+      "cameraTarget": {
+        "distance": 3.0,
+        "height": 0.8
+      },
+      "cullingDistance": [
+        0.1,
+        0.01
+      ],
+      "collection": [
+        {
+          "id": "mace",
+          "name": "mace",
+          "directory": "Weapon/mace.vrm",
+          "thumbnail": "Weapon/mace.png"
+        },
+        {
+          "id": "warhammer",
+          "name": "warhammer",
+          "directory": "Weapon/warhammer.vrm",
+          "thumbnail": "Weapon/warhammer.png"
+        },
+        {
+          "id": "chronicle",
+          "name": "chronicle",
+          "directory": "Weapon/chronicle.vrm",
+          "thumbnail": "Weapon/chronicle.png"
+        },
+        {
+          "id": "grimoire",
+          "name": "grimoire",
+          "directory": "Weapon/grimoire.vrm",
+          "thumbnail": "Weapon/grimoire.png"
+        },
+        {
+          "id": "bone_wand",
+          "name": "bone wand",
+          "directory": "Weapon/bone_wand.vrm",
+          "thumbnail": "Weapon/bone_wand.png"
+        },
+        {
+          "id": "club",
+          "name": "club",
+          "directory": "Weapon/club.vrm",
+          "thumbnail": "Weapon/club.png"
+        },
+        {
+          "id": "wand",
+          "name": "wand",
+          "directory": "Weapon/wand.vrm",
+          "thumbnail": "Weapon/wand.png"
+        },
+        {
+          "id": "katana",
+          "name": "katana",
+          "directory": "Weapon/katana.vrm",
+          "thumbnail": "Weapon/katana.png"
+        },
+        {
+          "id": "tome",
+          "name": "tome",
+          "directory": "Weapon/tome.vrm",
+          "thumbnail": "Weapon/tome.png"
+        },
+        {
+          "id": "maul",
+          "name": "maul",
+          "directory": "Weapon/maul.vrm",
+          "thumbnail": "Weapon/maul.png"
+        },
+        {
+          "id": "ghost_wand",
+          "name": "ghost wand",
+          "directory": "Weapon/ghost_wand.vrm",
+          "thumbnail": "Weapon/ghost_wand.png"
+        },
+        {
+          "id": "book",
+          "name": "book",
+          "directory": "Weapon/book.vrm",
+          "thumbnail": "Weapon/book.png"
+        },
+        {
+          "id": "grave_wand",
+          "name": "grave wand",
+          "directory": "Weapon/grave_wand.vrm",
+          "thumbnail": "Weapon/grave_wand.png"
+        },
+        {
+          "id": "falchion",
+          "name": "falchion",
+          "directory": "Weapon/falchion.vrm",
+          "thumbnail": "Weapon/falchion.png"
+        },
+        {
+          "id": "scimitar",
+          "name": "scimitar",
+          "directory": "Weapon/scimitar.vrm",
+          "thumbnail": "Weapon/scimitar.png"
+        },
+        {
+          "id": "short_sword",
+          "name": "short sword",
+          "directory": "Weapon/short_sword.vrm",
+          "thumbnail": "Weapon/short_sword.png"
+        },
+        {
+          "id": "quarterstaff",
+          "name": "quarterstaff",
+          "directory": "Weapon/quarterstaff.vrm",
+          "thumbnail": "Weapon/quarterstaff.png"
+        },
+        {
+          "id": "long_sword",
+          "name": "long sword",
+          "directory": "Weapon/long_sword.vrm",
+          "thumbnail": "Weapon/long_sword.png"
         }
       ]
     },

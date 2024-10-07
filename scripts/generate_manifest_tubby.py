@@ -3,13 +3,13 @@ import json
 
 def generate_manifest(directory_path):
     manifest_template = {
-        "assetsLocation": "./tubbycats/",
+        "assetsLocation": "./loot-assets/tubbycats/",
         "format": "vrm",
-        "traitsDirectory": "./tubbycats/",
-        "thumbnailsDirectory": "./loot/thumbnails/",
+        "traitsDirectory": "",
+        "thumbnailsDirectory": "./loot-assets/loot/thumbnails/",
         "exportScale": 1,
         "animationPath": get_animation_paths(),
-        "traitIconsDirectorySvg": "./loot/icons/",
+        "traitIconsDirectorySvg": "./loot-assets/loot/icons/",
         "defaultCullingLayer": -1,
         "defaultCullingDistance": [0.1, 0.01],
         "initialTraits": ["Body", "Head", "Hands", "Shoes", "Chest", "Waist", "Neck"], 
@@ -37,6 +37,7 @@ def generate_traits(directory_path):
         "Shoes": -1,
         "Chest": 0,
         "Neck": -1,
+        "Weapon": -1,
         "Waist": -1
     }
 
