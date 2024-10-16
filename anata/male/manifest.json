@@ -69,7 +69,19 @@
           "id": "male",
           "name": "male",
           "directory": "Body/male.vrm",
-          "thumbnail": "Body/male.png"
+          "thumbnail": "Body/male.png",
+          "blendshapeTraits":[{
+            "trait":"nose",
+            "name":"Nose",
+            "cameraTarget": {
+              "distance": 0.75,
+              "height": 1.5
+            },
+            "collection":[{
+              "id":"Nose_LONG",
+              "name":"Long Nose"
+            }]
+          }]
         }
       ]
     },
